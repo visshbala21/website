@@ -87,8 +87,8 @@ nav a:hover {
 
 .socials {
     display: flex;
-    gap: 10px; /* Adjusts the space between icons */
-    justify-content: center; /* Centers the icons horizontally */
+    gap: 500px; /* Adjusts the space between icons */
+    justify-content: left; /* Centers the icons horizontally */
     margin-top: 20px;
 }
 
