@@ -87,16 +87,21 @@ nav a:hover {
 
 .socials {
     display: flex;
-    gap: 500px; /* Adjusts the space between icons */
-    justify-content: left; /* Centers the icons horizontally */
+    gap: 10px;
+    justify-content: flex-start; 
+    margin-top: 20px;
+}
+
+.socials-container {
+    display: block; 
     margin-top: 20px;
 }
 
 .socials a img {
-    transition: transform 0.3s; /* Smooth transition for hover effect */
+    transition: transform 0.3s;
 }
 
 .socials a img:hover {
-    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+    transform: scale(1.1); 
 }
 
