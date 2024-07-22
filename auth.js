@@ -5,7 +5,7 @@ function checkPassword() {
     if (userPassword === correctPassword) {
         document.getElementById("protected-content").style.display = "block";
     } else {
-        alert("Nah that ain't gang nt. Back the lobby bro.");
+        alert("Nah that ain't gang nt. Back to the lobby bro.");
         window.location.href = "index.html"; 
     }
 }
