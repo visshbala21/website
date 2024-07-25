@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 header {
@@ -20,9 +21,42 @@ header p {
     font-size: 1.2em;
 }
 
+.main-container {
+    margin-right: 220px; /* Adjust this to ensure content doesn't overlap with the sidebar */
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.separator {
+    width: 2px;
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 200px; /* Adjust to the width of your sidebar */
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    border-left: 2px solid black;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -30,35 +64,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.1em;
     padding: 10px;
     display: block;
+    text-align: center;
 }
 
 nav ul li a:hover {
-    background-color: #444;
-}
-
-.container {
-    display: flex;
-    min-height: 100vh;
-}
-
-.content {
-    flex: 1;
-    padding: 20px;
-}
-
-.sidebar {
-    width: 200px;
-    background-color: #343a40;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
 }
 
 .section {
@@ -67,12 +83,6 @@ nav ul li a:hover {
     padding: 20px;
     background-color: #f1f1f1;
     border-radius: 10px;
-}
-
-#about h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-align: center;
 }
 
 #drawing-portfolio h2,
