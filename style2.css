@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@700&display=swap');
 
-
-
 body {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
     color: black;
@@ -30,10 +28,19 @@ header p {
 .main-container {
     margin-right: 220px; /* Adjust this to ensure content doesn't overlap with the sidebar */
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content */
+    min-height: 100vh; /* Make sure the container takes full height */
+    box-sizing: border-box;
 }
 
 .content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content */
+    width: 100%;
 }
 
 .separator {
@@ -84,20 +91,21 @@ nav ul li a:hover {
 }
 
 .section {
+    width: calc(100% - 40px); /* Take full width minus padding */
     max-width: 1200px;
-    margin: auto;
+    margin: 20px 0; /* Ensure the section has top and bottom margin */
     padding: 20px;
     background-color: white;
     border-radius: 10px;
     border: 2px solid #080000; /* Add a border to the section */
     box-sizing: border-box; /* Include padding in the width and height */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
-    margin-bottom: 20px;
 }
 
 #drawing-portfolio h2,
 #coding-portfolio h2,
 #blog h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
