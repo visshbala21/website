@@ -91,7 +91,7 @@ nav ul li a:hover {
 }
 
 .section {
-    width: calc(100% - 40px); /* Take full width minus padding */
+    width: calc(100% - 260px); /* Increase width to ensure it takes more space */
     max-width: 1200px;
     margin: 20px 0; /* Ensure the section has top and bottom margin */
     padding: 20px;
