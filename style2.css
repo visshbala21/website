@@ -91,7 +91,6 @@ nav ul li a:hover {
 }
 
 .section {
-<<<<<<< HEAD
     width: calc(100% - 60px); /* Adjusted width to ensure there's space on both sides */
     max-width: 1200px;
     margin: 20px auto; /* Center the section with margin auto */
@@ -101,17 +100,6 @@ nav ul li a:hover {
     border: 2px solid #080000; /* Border color */
     box-sizing: border-box; /* Include padding in the width and height */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
-=======
-    width: calc(100% - 40px);
-    max-width: 1200px;
-    margin: 20px 0;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    border: 2px solid #080000;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
->>>>>>> a76213c68c32a34d1478882417e0e0f6601420ca
 }
 
 
@@ -191,7 +179,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .repo-item {
     padding: 15px;
     margin-bottom: 15px;
@@ -214,5 +201,3 @@ nav ul li a:hover {
     flex-direction: column;
     gap: 20px;
 }
-=======
->>>>>>> a76213c68c32a34d1478882417e0e0f6601420ca
