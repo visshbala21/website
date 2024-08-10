@@ -91,16 +91,17 @@ nav ul li a:hover {
 }
 
 .section {
-    width: calc(100% - 240px); /* Take full width minus sidebar */
+    width: calc(100% - 60px); /* Adjusted width to ensure there's space on both sides */
     max-width: 1200px;
-    margin: 20px 0; /* Ensure the section has top and bottom margin */
+    margin: 20px auto; /* Center the section with margin auto */
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    border: 2px solid #080000; /* Add a border to the section */
+    border: 2px solid #080000; /* Border color */
     box-sizing: border-box; /* Include padding in the width and height */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
 }
+
 
 #drawing-portfolio h2,
 #coding-portfolio h2,
@@ -175,4 +176,27 @@ nav ul li a:hover {
 
 .email-section a:hover {
     text-decoration: underline;
+}
+
+.repo-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.repo-item h3 {
+    margin-top: 0;
+}
+
+.repo-item p {
+    margin: 5px 0;
+}
+
+#repos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
