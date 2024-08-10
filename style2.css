@@ -26,12 +26,12 @@ header p {
 }
 
 .main-container {
-    margin-right: 220px; /* Adjust this to ensure content doesn't overlap with the sidebar */
+    margin-right: 220px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content */
-    min-height: 100vh; /* Make sure the container takes full height */
+    align-items: center;
+    min-height: 100vh;
     box-sizing: border-box;
 }
 
@@ -39,7 +39,7 @@ header p {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content */
+    align-items: center;
     width: 100%;
 }
 
@@ -49,7 +49,7 @@ header p {
     height: 100vh;
     position: fixed;
     top: 0;
-    right: 200px; /* Adjust to the width of your sidebar */
+    right: 200px;
 }
 
 .sidebar {
@@ -91,6 +91,7 @@ nav ul li a:hover {
 }
 
 .section {
+<<<<<<< HEAD
     width: calc(100% - 60px); /* Adjusted width to ensure there's space on both sides */
     max-width: 1200px;
     margin: 20px auto; /* Center the section with margin auto */
@@ -100,6 +101,17 @@ nav ul li a:hover {
     border: 2px solid #080000; /* Border color */
     box-sizing: border-box; /* Include padding in the width and height */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+=======
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #080000;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+>>>>>>> a76213c68c32a34d1478882417e0e0f6601420ca
 }
 
 
@@ -129,14 +141,15 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     overflow: hidden;
-    height: 400px; 
+    height: 400px;
 }
 
 .gallery-item img {
     max-width: 100%;
     height: auto;
-    max-height: 70%; 
+    max-height: 70%;
     object-fit: contain;
+    cursor: pointer; /* Add pointer cursor */
 }
 
 .gallery-item p {
@@ -147,12 +160,12 @@ nav ul li a:hover {
 .socials {
     display: flex;
     gap: 10px;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     margin-top: 20px;
 }
 
 .socials-container {
-    display: block; 
+    display: block;
     margin-top: 20px;
 }
 
@@ -161,7 +174,7 @@ nav ul li a:hover {
 }
 
 .socials a img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .email-section {
@@ -178,6 +191,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 .repo-item {
     padding: 15px;
     margin-bottom: 15px;
@@ -200,3 +214,5 @@ nav ul li a:hover {
     flex-direction: column;
     gap: 20px;
 }
+=======
+>>>>>>> a76213c68c32a34d1478882417e0e0f6601420ca
